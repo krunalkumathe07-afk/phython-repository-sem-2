@@ -1,0 +1,7 @@
+# Program to check movie eligibility based on age > 18
+age = int(input("Please enter your age: "))
+
+if age >= 18:
+    print("You are eligible to watch the movie. Enjoy your show!")
+else:
+    print("Sorry, you are not eligible to watch this movie because you are under 18.")
