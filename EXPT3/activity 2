@@ -1,0 +1,12 @@
+def calculate_emi(principal, rate, years):
+    r = rate / (12 * 100)
+    n = years * 12
+    emi = (principal * r * (1 + r) ** n) / ((1 + r) ** n - 1)
+    return emi
+
+principal = 500000
+rate = 7.5
+years = 5
+
+emi = calculate_emi(principal, rate, years)
+print(f"EMI for the loan is: ₹{emi:.2f}")
