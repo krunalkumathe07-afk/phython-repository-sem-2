@@ -1,0 +1,14 @@
+#Traffic Police System
+
+def check_speed(speed):
+    limit = 60
+
+    if speed > limit:
+        fine = (speed - limit) * 50
+        print(f"OVERSPEEDING DETECTED! Speed: {speed} km/h")
+        print(f"Fine Message: Please pay a fine of Rs. {fine}")
+    else:
+        print(f"Speed: {speed} km/h. Within limits.")
+
+vechicle_speed = 75
+check_speed(vechicle_speed)
