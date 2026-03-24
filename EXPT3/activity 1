@@ -1,0 +1,8 @@
+items = ["Apple", "Banana", "Orange"]
+copies = 3
+
+for i in range(copies):
+    print(f"Receipt copy {i+1}:")
+    for j, item in enumerate(items, start=1):
+        print(f"Item {j}: {item}")
+    print()
