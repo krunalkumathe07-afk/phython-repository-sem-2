@@ -1,0 +1,11 @@
+# Loan Approval System
+# Condition: Salary must be greater than 25000
+
+# Input: Get salary from the user
+salary = float(input("Enter your salary: "))
+
+# Check eligibility
+if salary > 25000:
+    print("APPROVED")
+else:
+    print("REJECTED")
