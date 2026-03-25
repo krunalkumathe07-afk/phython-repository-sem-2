@@ -1,0 +1,12 @@
+f = open("attenddance .txt","w")
+f.write("rahul - present\n")
+f.write("sneha - absent\n")
+f.close()
+
+f = open("attendance.txt","a")
+f.write("amit - present\n")
+f.close()
+
+f = open("attendance.txt","r")
+print(f.read())
+f.close()
