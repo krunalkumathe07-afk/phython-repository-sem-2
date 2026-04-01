@@ -1,0 +1,13 @@
+# Dictionary storing book names and prices
+books = {
+    "Maths": 250,
+    "Science": 300,
+    "English": 200
+}
+
+# Updating price of a book
+books["Science"] = 350
+
+print("Updated Book Prices:")
+for book, price in books.items():
+    print(book, ":", price)
