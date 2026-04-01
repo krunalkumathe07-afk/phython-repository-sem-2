@@ -1,0 +1,12 @@
+# Dictionary storing item name and quantity
+inventory = {
+    "Apples": 50,
+    "Bananas": 30
+}
+
+# Adding new stock
+inventory["Oranges"] = 40
+
+print("Updated Inventory:")
+for item, qty in inventory.items():
+    print(item, ":", qty)
