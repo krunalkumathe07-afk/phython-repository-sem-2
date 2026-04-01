@@ -1,0 +1,9 @@
+try:
+    bill = float(input("Enter total bill: "))
+    people = int(input("Enter number of people: "))
+    
+    amount = bill / people
+    print("Each person should pay:", amount)
+    
+except ZeroDivisionError:
+    print("Error: Number of people cannot be zero!")
