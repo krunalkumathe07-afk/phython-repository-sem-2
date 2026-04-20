@@ -1,0 +1,16 @@
+import math
+
+P = 60000
+r = 8.5 / (12 * 100)
+n = 5 * 12
+
+emi = P * r * math.pow(1 + r, n) / (math.pow(1 + r, n) - 1)
+interest = emi * n - P
+
+print("EMI:", round(emi, 2))
+print("Interest:", round(interest, 2))
+
+output
+
+EMI: 1230.99
+Interest: 13859.51
