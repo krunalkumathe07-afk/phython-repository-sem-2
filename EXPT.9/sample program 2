@@ -1,0 +1,14 @@
+import datetime
+
+now = datetime.datetime.now()
+
+print("Current Date:", now.strftime("%Y-%m-%d"))
+
+print("Current Time:", now.strftime("%H:%M:%S"))
+
+print("Weekday:", now.strftime("%A"))
+
+output =
+Current Date: 2026-04-20
+Current Time: 07:56:10
+Weekday: Monday
