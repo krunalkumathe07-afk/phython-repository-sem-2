@@ -1,0 +1,16 @@
+class OnlineOrder:
+    def __init__(self, item, price, quantity):
+        self.item = item
+        self.price = price
+        self.quantity = quantity
+
+    def total_cost(self):
+        return self.price * self.quantity
+
+
+# Create object
+order = OnlineOrder("Shoes", 1500, 2)
+
+# Display total cost
+print("Item:", order.item)
+print("Total Cost:", order.total_cost())
