@@ -8,3 +8,7 @@ try:
         
 except ValueError:
     print("Invalid input! Please enter a number.")
+
+OUTPUT
+Enter your age: 19
+Registration successful
