@@ -25,3 +25,15 @@ class Employee:
   emp = Employee(name,emp_id,basic_salary)
   print("\nEmployee Details:")
   emp.display_details()
+
+Enter employee name: krunal
+Enter employee ID: 1112
+Enter basic salary: 61000
+
+OUTPUT=
+
+Employee Details:
+Employee Name: krunal
+Employee ID: 1112
+Basic Salary: 61000.0
+Gross Salary: 79300.0
