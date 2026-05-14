@@ -8,3 +8,7 @@ else:
     balance -= withdraw
     print("Withdrawal successful")
     print("Remaining balance:", balance)
+ OUTPUT
+Enter amount to withdraw: 3000
+Withdrawal successful
+Remaining balance: 2000
