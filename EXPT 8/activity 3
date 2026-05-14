@@ -7,3 +7,7 @@ try:
     
 except ZeroDivisionError:
     print("Error: Number of people cannot be zero!")
+OUTPUT
+Enter total bill: 50000
+Enter number of people: 11
+Each person should pay: 4545.454545454545
