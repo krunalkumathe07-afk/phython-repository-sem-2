@@ -1,0 +1,19 @@
+class Vehicle:
+    def __init__(self, name, distance, fuel):
+        self.name = name
+        self.distance = distance
+        self.fuel = fuel
+
+    def fuel_efficiency(self):
+        return self.distance / self.fuel
+
+
+# Create object
+v = Vehicle("Car", 300, 15)
+
+# Display fuel efficiency
+print("Vehicle:", v.name)
+print("Fuel Efficiency:", v.fuel_efficiency(), "km/l")
+OUTPUT 
+Vehicle: Car
+Fuel Efficiency: 20.0 km/l
